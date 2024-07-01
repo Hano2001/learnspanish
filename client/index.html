@@ -4,10 +4,20 @@
     <script src="index.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Learn Spanish</title>
 </head>
 <body>
-    <h1>Learning Spanish!</h1>
+    <main id="main">
+        <h1>Learning Spanish!</h1>
+        <section>
+            <strong id="score">0</strong>
+            <table id="questionTable">
+                <tr><th id="wordToAnswer"></th></tr>
+            </table>
+        </section>
+    </main>
+    
     <button id="fetchButton">Fetch data</button>
 </body>
 </html>
